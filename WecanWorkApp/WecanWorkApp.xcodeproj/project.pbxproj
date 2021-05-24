@@ -99,6 +99,7 @@
 		1ADE9DB0265B88FD00718284 /* WecanWorkApp */ = {
 			isa = PBXGroup;
 			children = (
+				1ADE9DF9265B952400718284 /* Classes */,
 				1ADE9DB1265B88FD00718284 /* AppDelegate.swift */,
 				1ADE9DB3265B88FD00718284 /* SceneDelegate.swift */,
 				1ADE9DB5265B88FD00718284 /* ViewController.swift */,
@@ -126,6 +127,45 @@
 				1ADE9DD5265B890000718284 /* Info.plist */,
 			);
 			path = WecanWorkAppUITests;
+			sourceTree = "<group>";
+		};
+		1ADE9DF9265B952400718284 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE9DFB265B952400718284 /* Receive */,
+				1ADE9DFD265B952400718284 /* Custom */,
+				1ADE9DFC265B952400718284 /* Marker */,
+				1ADE9DFA265B952400718284 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1ADE9DFA265B952400718284 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1ADE9DFB265B952400718284 /* Receive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Receive;
+			sourceTree = "<group>";
+		};
+		1ADE9DFC265B952400718284 /* Marker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Marker;
+			sourceTree = "<group>";
+		};
+		1ADE9DFD265B952400718284 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVEJDMXF5S;
 				INFOPLIST_FILE = WecanWorkApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVEJDMXF5S;
 				INFOPLIST_FILE = WecanWorkApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
