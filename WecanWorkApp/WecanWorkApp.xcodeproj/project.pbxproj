@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADE9DB2265B88FD00718284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE9DB1265B88FD00718284 /* AppDelegate.swift */; };
+		1ADE9DB4265B88FD00718284 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE9DB3265B88FD00718284 /* SceneDelegate.swift */; };
+		1ADE9DB6265B88FD00718284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE9DB5265B88FD00718284 /* ViewController.swift */; };
+		1ADE9DB9265B88FD00718284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADE9DB7265B88FD00718284 /* Main.storyboard */; };
+		1ADE9DBB265B890000718284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADE9DBA265B890000718284 /* Assets.xcassets */; };
+		1ADE9DBE265B890000718284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADE9DBC265B890000718284 /* LaunchScreen.storyboard */; };
+		1ADE9DC9265B890000718284 /* WecanWorkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE9DC8265B890000718284 /* WecanWorkAppTests.swift */; };
+		1ADE9DD4265B890000718284 /* WecanWorkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE9DD3265B890000718284 /* WecanWorkAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ADE9DC5265B890000718284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADE9DA6265B88FD00718284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADE9DAD265B88FD00718284;
+			remoteInfo = WecanWorkApp;
+		};
+		1ADE9DD0265B890000718284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADE9DA6265B88FD00718284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADE9DAD265B88FD00718284;
+			remoteInfo = WecanWorkApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ADE9DAE265B88FD00718284 /* WecanWorkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WecanWorkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADE9DB1265B88FD00718284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ADE9DB3265B88FD00718284 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ADE9DB5265B88FD00718284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ADE9DB8265B88FD00718284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ADE9DBA265B890000718284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ADE9DBD265B890000718284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ADE9DBF265B890000718284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADE9DC4265B890000718284 /* WecanWorkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WecanWorkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADE9DC8265B890000718284 /* WecanWorkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WecanWorkAppTests.swift; sourceTree = "<group>"; };
+		1ADE9DCA265B890000718284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADE9DCF265B890000718284 /* WecanWorkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WecanWorkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADE9DD3265B890000718284 /* WecanWorkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WecanWorkAppUITests.swift; sourceTree = "<group>"; };
+		1ADE9DD5265B890000718284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADE9DAB265B88FD00718284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADE9DC1265B890000718284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADE9DCC265B890000718284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADE9DA5265B88FD00718284 = {
+			isa = PBXGroup;
+			children = (
+				1ADE9DB0265B88FD00718284 /* WecanWorkApp */,
+				1ADE9DC7265B890000718284 /* WecanWorkAppTests */,
+				1ADE9DD2265B890000718284 /* WecanWorkAppUITests */,
+				1ADE9DAF265B88FD00718284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADE9DAF265B88FD00718284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE9DAE265B88FD00718284 /* WecanWorkApp.app */,
+				1ADE9DC4265B890000718284 /* WecanWorkAppTests.xctest */,
+				1ADE9DCF265B890000718284 /* WecanWorkAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADE9DB0265B88FD00718284 /* WecanWorkApp */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE9DB1265B88FD00718284 /* AppDelegate.swift */,
+				1ADE9DB3265B88FD00718284 /* SceneDelegate.swift */,
+				1ADE9DB5265B88FD00718284 /* ViewController.swift */,
+				1ADE9DB7265B88FD00718284 /* Main.storyboard */,
+				1ADE9DBA265B890000718284 /* Assets.xcassets */,
+				1ADE9DBC265B890000718284 /* LaunchScreen.storyboard */,
+				1ADE9DBF265B890000718284 /* Info.plist */,
+			);
+			path = WecanWorkApp;
+			sourceTree = "<group>";
+		};
+		1ADE9DC7265B890000718284 /* WecanWorkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE9DC8265B890000718284 /* WecanWorkAppTests.swift */,
+				1ADE9DCA265B890000718284 /* Info.plist */,
+			);
+			path = WecanWorkAppTests;
+			sourceTree = "<group>";
+		};
+		1ADE9DD2265B890000718284 /* WecanWorkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE9DD3265B890000718284 /* WecanWorkAppUITests.swift */,
+				1ADE9DD5265B890000718284 /* Info.plist */,
+			);
+			path = WecanWorkAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADE9DAD265B88FD00718284 /* WecanWorkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADE9DD8265B890000718284 /* Build configuration list for PBXNativeTarget "WecanWorkApp" */;
+			buildPhases = (
+				1ADE9DAA265B88FD00718284 /* Sources */,
+				1ADE9DAB265B88FD00718284 /* Frameworks */,
+				1ADE9DAC265B88FD00718284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WecanWorkApp;
+			productName = WecanWorkApp;
+			productReference = 1ADE9DAE265B88FD00718284 /* WecanWorkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ADE9DC3265B890000718284 /* WecanWorkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADE9DDB265B890000718284 /* Build configuration list for PBXNativeTarget "WecanWorkAppTests" */;
+			buildPhases = (
+				1ADE9DC0265B890000718284 /* Sources */,
+				1ADE9DC1265B890000718284 /* Frameworks */,
+				1ADE9DC2265B890000718284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADE9DC6265B890000718284 /* PBXTargetDependency */,
+			);
+			name = WecanWorkAppTests;
+			productName = WecanWorkAppTests;
+			productReference = 1ADE9DC4265B890000718284 /* WecanWorkAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ADE9DCE265B890000718284 /* WecanWorkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADE9DDE265B890000718284 /* Build configuration list for PBXNativeTarget "WecanWorkAppUITests" */;
+			buildPhases = (
+				1ADE9DCB265B890000718284 /* Sources */,
+				1ADE9DCC265B890000718284 /* Frameworks */,
+				1ADE9DCD265B890000718284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADE9DD1265B890000718284 /* PBXTargetDependency */,
+			);
+			name = WecanWorkAppUITests;
+			productName = WecanWorkAppUITests;
+			productReference = 1ADE9DCF265B890000718284 /* WecanWorkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADE9DA6265B88FD00718284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1ADE9DAD265B88FD00718284 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1ADE9DC3265B890000718284 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1ADE9DAD265B88FD00718284;
+					};
+					1ADE9DCE265B890000718284 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1ADE9DAD265B88FD00718284;
+					};
+				};
+			};
+			buildConfigurationList = 1ADE9DA9265B88FD00718284 /* Build configuration list for PBXProject "WecanWorkApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ADE9DA5265B88FD00718284;
+			productRefGroup = 1ADE9DAF265B88FD00718284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADE9DAD265B88FD00718284 /* WecanWorkApp */,
+				1ADE9DC3265B890000718284 /* WecanWorkAppTests */,
+				1ADE9DCE265B890000718284 /* WecanWorkAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADE9DAC265B88FD00718284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADE9DBE265B890000718284 /* LaunchScreen.storyboard in Resources */,
+				1ADE9DBB265B890000718284 /* Assets.xcassets in Resources */,
+				1ADE9DB9265B88FD00718284 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADE9DC2265B890000718284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADE9DCD265B890000718284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADE9DAA265B88FD00718284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADE9DB6265B88FD00718284 /* ViewController.swift in Sources */,
+				1ADE9DB2265B88FD00718284 /* AppDelegate.swift in Sources */,
+				1ADE9DB4265B88FD00718284 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADE9DC0265B890000718284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADE9DC9265B890000718284 /* WecanWorkAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADE9DCB265B890000718284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADE9DD4265B890000718284 /* WecanWorkAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADE9DC6265B890000718284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADE9DAD265B88FD00718284 /* WecanWorkApp */;
+			targetProxy = 1ADE9DC5265B890000718284 /* PBXContainerItemProxy */;
+		};
+		1ADE9DD1265B890000718284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADE9DAD265B88FD00718284 /* WecanWorkApp */;
+			targetProxy = 1ADE9DD0265B890000718284 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ADE9DB7265B88FD00718284 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADE9DB8265B88FD00718284 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ADE9DBC265B890000718284 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADE9DBD265B890000718284 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ADE9DD6265B890000718284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ADE9DD7265B890000718284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ADE9DD9265B890000718284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVEJDMXF5S;
+				INFOPLIST_FILE = WecanWorkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wecan.WecanWorkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1ADE9DDA265B890000718284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVEJDMXF5S;
+				INFOPLIST_FILE = WecanWorkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wecan.WecanWorkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1ADE9DDC265B890000718284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVEJDMXF5S;
+				INFOPLIST_FILE = WecanWorkAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wecan.WecanWorkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WecanWorkApp.app/WecanWorkApp";
+			};
+			name = Debug;
+		};
+		1ADE9DDD265B890000718284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVEJDMXF5S;
+				INFOPLIST_FILE = WecanWorkAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wecan.WecanWorkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WecanWorkApp.app/WecanWorkApp";
+			};
+			name = Release;
+		};
+		1ADE9DDF265B890000718284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVEJDMXF5S;
+				INFOPLIST_FILE = WecanWorkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wecan.WecanWorkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WecanWorkApp;
+			};
+			name = Debug;
+		};
+		1ADE9DE0265B890000718284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SVEJDMXF5S;
+				INFOPLIST_FILE = WecanWorkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wecan.WecanWorkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WecanWorkApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADE9DA9265B88FD00718284 /* Build configuration list for PBXProject "WecanWorkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADE9DD6265B890000718284 /* Debug */,
+				1ADE9DD7265B890000718284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADE9DD8265B890000718284 /* Build configuration list for PBXNativeTarget "WecanWorkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADE9DD9265B890000718284 /* Debug */,
+				1ADE9DDA265B890000718284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADE9DDB265B890000718284 /* Build configuration list for PBXNativeTarget "WecanWorkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADE9DDC265B890000718284 /* Debug */,
+				1ADE9DDD265B890000718284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADE9DDE265B890000718284 /* Build configuration list for PBXNativeTarget "WecanWorkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADE9DDF265B890000718284 /* Debug */,
+				1ADE9DE0265B890000718284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADE9DA6265B88FD00718284 /* Project object */;
+}
