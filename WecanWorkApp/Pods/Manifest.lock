@@ -1,0 +1,113 @@
+PODS:
+  - Alamofire (5.4.3)
+  - CameraManager (5.1.3)
+  - Differentiator (5.0.0)
+  - GPUImage (0.1.7)
+  - ID-Card-Camera (1.4.1)
+  - Kingfisher (6.3.0)
+  - MJRefresh (3.5.0)
+  - ObjectMapper (4.2.0)
+  - ProgressHUD (2.70)
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
+  - RealmSwift (4.4.1):
+    - Realm (= 4.4.1)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SCLAlertView (0.8)
+  - SwiftDate (6.3.1)
+  - SwiftOCR (1.1):
+    - GPUImage
+  - swiftScan (1.2.1)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - CameraManager (~> 5.1)
+  - ID-Card-Camera (~> 1.0)
+  - Kingfisher
+  - MJRefresh
+  - ObjectMapper
+  - ProgressHUD
+  - RealmSwift (~> 4.4.1)
+  - RxAlamofire
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - SCLAlertView
+  - SwiftDate
+  - SwiftOCR
+  - swiftScan (from `https://github.com/MxABC/swiftScan.git`)
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CameraManager
+    - Differentiator
+    - GPUImage
+    - ID-Card-Camera
+    - Kingfisher
+    - MJRefresh
+    - ObjectMapper
+    - ProgressHUD
+    - Realm
+    - RealmSwift
+    - RxAlamofire
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SCLAlertView
+    - SwiftDate
+    - SwiftOCR
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  swiftScan:
+    :git: https://github.com/MxABC/swiftScan.git
+
+CHECKOUT OPTIONS:
+  swiftScan:
+    :commit: b0cc9aea11140125b75d1baaccb16c9567cdf69a
+    :git: https://github.com/MxABC/swiftScan.git
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  CameraManager: 73936a52093081ba5e44914e8120ab511360f5d4
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  ID-Card-Camera: bda6fa003027ef22b93c2f0aaddb8373260ea680
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  ProgressHUD: e603e8b8622c47d8818b9fb38b3cfe9d3e7ca421
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
+  RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  SwiftOCR: e1a5c7582f074b54df2b1ad273983088b3cf5d45
+  swiftScan: 0849e7d7c1c641384767a573ee8cb90b88d1ddd9
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 4845d5275d06a1d72d75098a9678bdb7ad7c06ed
+
+COCOAPODS: 1.6.0.beta.1

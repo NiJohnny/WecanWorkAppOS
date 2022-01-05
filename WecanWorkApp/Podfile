@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+# Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+use_frameworks!
+target 'WecanWorkApp' do
+
+pod 'CameraManager', '~> 5.1'
+pod 'RxAlamofire'
+pod 'RxSwift'
+pod 'RxCocoa'
+#pod 'FileKit', '~> 5.0.0'
+pod 'Kingfisher'
+pod 'ObjectMapper'
+pod 'RealmSwift', '~> 4.4.1'
+pod 'SwiftDate'
+pod 'MJRefresh'
+pod 'RxDataSources'
+pod 'ProgressHUD'
+pod 'SCLAlertView'
+pod 'swiftScan', :git => 'https://github.com/MxABC/swiftScan.git'
+pod 'SwiftOCR'
+pod 'ID-Card-Camera', '~> 1.0'
+#pod 'MCToast'
+pod 'Toast-Swift', '~> 5.0.1'
+end

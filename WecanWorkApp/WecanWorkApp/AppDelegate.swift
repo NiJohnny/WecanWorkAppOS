@@ -9,11 +9,16 @@ import UIKit
 @available(iOS 13.0, *)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // Realm 数据库的配置
+        RealmTools.configRealm(userID: nil, schemaVersion: 11) { (migration, oldSchemaVersion) in
+        }
+        UIButton.methodExchange()
         return true
     }
 

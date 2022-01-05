@@ -1,0 +1,6 @@
+framework module IDCardCamera {
+  umbrella header "ID-Card-Camera-umbrella.h"
+
+  export *
+  module * { export * }
+}
